@@ -83,6 +83,7 @@ Zeru Finance aims to build an AI-powered, decentralized credit scoring system fo
 - **App:** `app.py` (Streamlit UI)
   - Sidebar for inputting wallet features
   - Main area displays animated gauge, credit score, credit band, and wallet quality band
+![Screenshot 2025-05-05 210319](https://github.com/user-attachments/assets/be26db55-a05b-4952-8873-5a2f448e8b6f)
 
 
 ---
