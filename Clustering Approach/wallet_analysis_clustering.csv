@@ -1,0 +1,11 @@
+wallet_address,credit_score,cluster,behavior_label,total_transactions,total_amount_usd,avg_amount_usd,std_amount_usd,wallet_age_days,asset_diversity,txn_per_day,pattern_explanation
+0x000000aaee6a496aaf7b7452518781786313400f,100.0,5,Good,76,770814.6157095307,10142.297575125403,5740.490391895004,30,3,2.533333333333333,"High activity, Long wallet age, Diverse assets, High variance in transaction sizes"
+0xb0848a5322f7d5d29416ac07b2df6e0cdb6c50d2,100.0,5,Good,5,98.93513881866357,19.787027763732716,20.35675327716692,21,2,0.23809523809523808,"High activity, Long wallet age, Diverse assets, High variance in transaction sizes"
+0xad81e01b66d69f45d557d93bc746bfc3db85bcae,100.0,5,Good,11,3272.0540339780605,297.45945763436913,264.6026922121167,22,2,0.5,"High activity, Long wallet age, Diverse assets, High variance in transaction sizes"
+0x5d47e5d242a8f66a6286b0a2353868875f5d6068,100.0,5,Good,2,7346.588176834449,3673.2940884172244,1676.8595799821917,20,2,0.1,"Low activity, Long wallet age, Diverse assets, High variance in transaction sizes"
+0x5ca8179510ea0c46327252dbf06110a63d4e8f35,100.0,5,Good,2,20.802311243944438,10.401155621972219,0.5662449122826423,22,2,0.09090909090909091,"Low activity, Long wallet age, Diverse assets, Stable transaction sizes"
+0xe3cb4799dea19fafc0272a61b0aa89603554de28,0.03213883978788444,2,Bad,1,3.2508184567214795e-09,3.2508184567214795e-09,0.0,1,1,1.0,"Low activity, Short wallet age, Low asset diversity, Stable transaction sizes"
+0xdbb6acbbdc55ad42c6a0d7e4a90ea47059437e9a,0.032138839787883657,2,Bad,1,0.0,0.0,0.0,1,1,1.0,"Low activity, Short wallet age, Low asset diversity, Stable transaction sizes"
+0x9bb157357895f07e59c239f4c8e9729d83249854,0.032138839787883657,2,Bad,1,2.193037853988229e-16,2.193037853988229e-16,0.0,1,1,1.0,"Low activity, Short wallet age, Low asset diversity, Stable transaction sizes"
+0x05693a71eb336e51c9d43eca6696b5c0553591e0,0.032138839787883657,2,Bad,1,0.0,0.0,0.0,1,1,1.0,"Low activity, Short wallet age, Low asset diversity, Stable transaction sizes"
+0xf88078acd8dd15a6acca291a8157163af586324c,0.032138839787883657,2,Bad,1,0.0,0.0,0.0,1,1,1.0,"Low activity, Short wallet age, Low asset diversity, Stable transaction sizes"
