@@ -1,0 +1,40 @@
+
+---
+
+## ⚙️ Updated `.cursorrules` for Notebook-Based Flow
+
+```yaml
+rules:
+  - name: Parse and Normalize JSONs
+    description: >
+      Load and flatten the .json files in Data folder into 1 DataFrame.
+      Extract 'wallet_address' from 'account.id', add 'action_type' column, convert timestamp to datetime.
+
+  - name: Combine and Prepare Transactions
+    description: >
+      CfROM THAT dATAFRAME set up a df into one `transactions_df`.
+      Derive 'day', 'month', 'year', and compute wallet lifespan.
+      Clean missing/null/duplicate entries.
+
+  - name: Wallet-Level Feature Engineering
+    description: >
+      Group by wallet address and compute total, average, std, count metrics for each action type.
+      Include ratio-based features like borrow-to-deposit and repay-to-borrow.
+      Save as `wallet_features.csv`.
+
+  - name: Scale and Score Wallets
+    description: >
+      Normalize features using MinMaxScaler. Cluster wallets using KMeans or DBSCAN.
+      Map clusters to score bands (e.g., 0-20-40-60-80-100). Store as `wallet_scores.csv`.
+
+  - name: Visualize and Analyze Scores
+    description: >
+      Plot histograms of scores, feature distributions, and show sample wallet scores.
+      Optionally export charts or data for frontend/dashboard.
+
+order:
+  - Parse and Normalize JSONs
+  - Combine and Prepare Transactions
+  - Wallet-Level Feature Engineering
+  - Scale and Score Wallets
+  - Visualize and Analyze Scores
