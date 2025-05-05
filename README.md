@@ -70,27 +70,7 @@ Zeru Finance aims to build an AI-powered, decentralized credit scoring system fo
   - `wallet_scores_top1000_with_behavior.csv` (clustering approach, includes wallet address, score, and quality band)
   - `weighted_wallet_scores.csv` (weighted-score approach)
 
----
 
-## Wallet Analysis
-
-### High-Scoring Wallets (Sample)
-| Wallet Address | Credit Score | Quality Band | Observed Patterns |
-|---------------|-------------|--------------|------------------|
-| ...           | 99.8        | Excellent    | High activity, long age, diverse assets, consistent volume |
-| ...           | 98.5        | Excellent    | Large, regular deposits, high protocol engagement         |
-| ...           | 97.2        | Very Good    | Active over long period, stable transaction sizes         |
-| ...           | 95.6        | Very Good    | High asset diversity, frequent transactions               |
-| ...           | 94.1        | Very Good    | Consistent, moderate risk, no suspicious spikes           |
-
-### Low-Scoring Wallets (Sample)
-| Wallet Address | Credit Score | Quality Band | Observed Patterns |
-|---------------|-------------|--------------|------------------|
-| ...           | 12.3        | Risky        | Very few transactions, short lifespan, low diversity      |
-| ...           | 15.7        | Risky        | Irregular, high-variance amounts, possible bot behavior   |
-| ...           | 18.9        | Low          | Only one asset, short activity window                     |
-| ...           | 21.4        | Low          | High volatility, low protocol engagement                  |
-| ...           | 23.0        | Low          | Large, infrequent, erratic transactions                   |
 
 #### Justification
 - **High scores:** Indicate responsible, consistent, and engaged protocol usage.
