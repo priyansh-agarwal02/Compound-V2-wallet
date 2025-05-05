@@ -1,5 +1,3 @@
-Hey Help me do Job assessment before my interview, its a problem statement, Help me with everythig deciding the Key factors all required, the Models that can be used , the approach decide the best one that helps me ace the assessment, give me a development plan from the basic, I can provide the columns of the dataset that can help you decide everything - (attached) So these are json files with the exact type of data with multiple files of raw data, Here is the Problem statement 
-
 Problem statement - scoring compound v2 wallets.
 Overview:
 Zeru Finance is building an AI-powered, decentralized credit scoring system. You are provided with raw, transaction-level data from the Compound V2 protocol. Each record corresponds to a wallet interacting with the protocol through actions such as deposit, borrow, repay, withdraw, and liquidation.
